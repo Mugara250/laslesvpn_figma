@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="output.css">
 </head>
 <body>
-    <main class="w-[80%] mx-auto ">
-        <div class="logo-navigation-and-signupin flex justify-between place-items-center mt-10">
+    <main class="overflow-visible">
+        <div class="logo-navigation-and-signupin w-[85%] mx-auto flex justify-between place-items-center mt-10">
             <div class="logo basis-[17%]">
                 <img src="./assets/icons/Logo.png" alt="laslesvpn logo">
             </div>
@@ -33,9 +33,26 @@
                     </ul>
                 </nav>
             </div>
-            <div class="signupin flex gap-x-7 font-bold text-base">
-                <button type="button" class="sign-in">Sign In</button>
-                <button type="button" class="sign-up px-10 py-2 text-red-500 border-red-500 border-[1px] rounded-3xl">Sign Up</button>
+            <div class="signupin flex gap-x-7 font-bold items-baseline text-base">
+                <a href="#">
+                    <button type="button" class="sign-in">Sign In</button>
+                </a>
+                <a href="#">
+                    <button type="button" class="sign-up px-10 py-2 text-red-500 border-red-500 border-[1px] rounded-3xl">Sign Up</button>
+                </a>
+                
+            </div>
+        </div>
+        <div class="hero-section w-[90%] mx-auto flex mt-24">
+            <div class="hero-text w-[90%] mt-4">
+                <p class="text-[2.5rem] w-full] font-bold ml-10">Want anything to be <br> easy with <span class="text-[3rem] font-extrabold">LaslesVPN.</span></p>
+                <p class="text-slate-500 w-full ml-10 mt-3">Provide a network for all your needs with ease and fun using <span class="font-bold">LaslesVPN</span> discover interesting features from us</p>
+                <a href="#">
+                    <button type="button" class="bg-red-400 text-white font-extrabold ml-10 mt-10 px-16 py-4 rounded-xl">Get Started</button>
+                </a>
+            </div>
+            <div class="hero-image w-[90%] ml-[5rem]">
+                <img src="./assets/images/introimage.png" alt="intro image" class="w-full">
             </div>
         </div>
     </main>
