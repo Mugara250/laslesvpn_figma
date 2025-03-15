@@ -1,130 +1,383 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LaslesVPN</title>
-    <link rel="stylesheet" href="output.css">
-</head>
+    <link rel="stylesheet" href="output.css" />
+  </head>
 
-<body>
+  <body>
     <main class="overflow-visible">
-        <div class="logo-navigation-and-signupin w-[85%] mx-auto flex justify-between place-items-center mt-10">
-            <div class="logo basis-[17%]">
-                <img src="./assets/icons/Logo.png" alt="laslesvpn logo">
-            </div>
-            <div class="navigation basis-[40%]">
-                <nav>
-                    <ul class="flex gap-x-7 font-semibold text-slate-500">
-                        <a href="#" id="about">
-                            <li>About</li>
-                        </a>
-                        <a href="#" id="features">
-                            <li>Features</li>
-                        </a>
-                        <a href="#" id="pricing">
-                            <li>Pricing</li>
-                        </a>
-                        <a href="#" id="testimonials">
-                            <li>Testimonials</li>
-                        </a>
-                        <a href="#" id="help">
-                            <li>Help</li>
-                        </a>
-                    </ul>
-                </nav>
-            </div>
-            <div class="signupin flex gap-x-7 font-bold items-baseline text-base">
-                <a href="#">
-                    <button type="button" class="sign-in">Sign In</button>
-                </a>
-                <a href="#">
-                    <button type="button"
-                        class="sign-up px-10 py-2 text-red-500 border-red-500 border-[1px] rounded-3xl">Sign Up</button>
-                </a>
+      <div
+        class="logo-navigation-and-signupin w-[85%] mx-auto flex justify-between place-items-center mt-10"
+      >
+        <div class="logo basis-[17%]">
+          <img src="./assets/icons/Logo.png" alt="laslesvpn logo" />
+        </div>
+        <div class="navigation basis-[40%]">
+          <nav>
+            <ul class="flex gap-x-7 font-semibold text-slate-500">
+              <a href="#" id="about">
+                <li>About</li>
+              </a>
+              <a href="#" id="features">
+                <li>Features</li>
+              </a>
+              <a href="#" id="pricing">
+                <li>Pricing</li>
+              </a>
+              <a href="#" id="testimonials">
+                <li>Testimonials</li>
+              </a>
+              <a href="#" id="help">
+                <li>Help</li>
+              </a>
+            </ul>
+          </nav>
+        </div>
+        <div class="signupin flex gap-x-7 font-bold items-baseline text-base">
+          <a href="#">
+            <button type="button" class="sign-in">Sign In</button>
+          </a>
+          <a href="#">
+            <button
+              type="button"
+              class="sign-up px-10 py-2 text-red-500 border-red-500 border-[1px] rounded-3xl"
+            >
+              Sign Up
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="hero-section w-[90%] mx-auto flex mt-24">
+        <div class="hero-text w-[90%] mt-4">
+          <p class="text-[2.5rem] w-full] font-bold ml-10">
+            Want anything to be <br />
+            easy with <span class="text-[3rem] font-extrabold">LaslesVPN.</span>
+          </p>
+          <p class="text-slate-500 w-full ml-10 mt-3">
+            Provide a network for all your needs with ease and fun using
+            <span class="font-bold">LaslesVPN</span> discover interesting
+            features from us
+          </p>
+          <a href="#">
+            <button
+              type="button"
+              class="bg-red-500 text-white text-base font-extrabold ml-10 mt-10 px-[4.5rem] py-[1.2rem] rounded-xl shadow-2xl shadow-red-500"
+            >
+              Get Started
+            </button>
+          </a>
+        </div>
+        <div class="hero-image w-[90%] ml-[5rem]">
+          <img
+            src="./assets/images/introimage.png"
+            alt="intro image"
+            class="w-full"
+          />
+        </div>
+      </div>
 
+      <!-- stats section -->
+      <div
+        class="stats w-[85%] mx-auto mt-[7rem] mb-5 px-5 py-14 flex justify-between shadow-slate-100 shadow-2xl border-l-white border-r-white"
+      >
+        <div class="users-container w-[30%] flex place-items-center">
+          <div
+            class="users w-full mx-auto flex gap-x-10 place-items-center px-10 justify-center items-center"
+          >
+            <img
+              class="object-fill"
+              src="./assets/icons/user.png"
+              alt="user icon"
+            />
+            <div class="users-text">
+              <h1 class="text-3xl font-extrabold">90+</h1>
+              <span class="text-slate-700 text-xl mt-3">Users</span>
             </div>
+          </div>
         </div>
-        <div class="hero-section w-[90%] mx-auto flex mt-24">
-            <div class="hero-text w-[90%] mt-4">
-                <p class="text-[2.5rem] w-full] font-bold ml-10">Want anything to be <br> easy with <span
-                        class="text-[3rem] font-extrabold">LaslesVPN.</span></p>
-                <p class="text-slate-500 w-full ml-10 mt-3">Provide a network for all your needs with ease and fun using
-                    <span class="font-bold">LaslesVPN</span> discover interesting features from us
-                </p>
-                <a href="#">
-                    <button type="button"
-                        class="bg-red-500 text-white text-base font-extrabold ml-10 mt-10 px-[4.5rem] py-[1.2rem] rounded-xl shadow-2xl shadow-red-500">Get
-                        Started</button>
-                </a>
+        <div
+          class="vertical-line border-l-gray-300/15 border-l-2 h-[140px]"
+        ></div>
+        <div class="locations-container w-[30%] flex place-items-center">
+          <div
+            class="locations w-full mx-auto flex gap-x-10 place-items-center px-10 justify-center items-center"
+          >
+            <img
+              class="object-fill"
+              src="./assets/icons/location.png"
+              alt="location icon"
+            />
+            <div class="locations-text">
+              <h1 class="text-3xl font-extrabold">30+</h1>
+              <span class="text-slate-700 text-xl mt-3">Locations</span>
             </div>
-            <div class="hero-image w-[90%] ml-[5rem]">
-                <img src="./assets/images/introimage.png" alt="intro image" class="w-full">
-            </div>
+          </div>
         </div>
-
-        <!-- stats section -->
-        <div class="stats w-[85%] mx-auto mt-[7rem] mb-5 px-5 py-14 flex justify-between shadow-slate-100 shadow-2xl border-l-white border-r-white">
-            <div class="users-container w-[30%] flex place-items-center">
-                <div class="users w-full mx-auto flex gap-x-10 place-items-center px-10 justify-center items-center">
-                    <img class="object-fill" src="./assets/icons/user.png" alt="user icon">
-                    <div class="users-text">
-                        <h1 class="text-3xl font-extrabold">90+</h1>
-                        <span class="text-slate-700 text-xl mt-3">Users</span>
-                    </div>
-                </div>
+        <div
+          class="vertical-line border-l-gray-300/15 border-l-2 h-[140px]"
+        ></div>
+        <div class="servers-container w-[30%] flex place-items-center">
+          <div
+            class="servers w-full mx-auto flex gap-x-10 place-items-center px-10 justify-center items-center"
+          >
+            <img
+              class="object-fill"
+              src="./assets/icons/Server.png"
+              alt="server icon"
+            />
+            <div class="users-text">
+              <h1 class="text-3xl font-extrabold">50+</h1>
+              <span class="text-slate-700 text-xl mt-3">Servers</span>
             </div>
-            <div class="vertical-line border-l-gray-300/15 border-l-2 h-[140px]"></div>
-            <div class="locations-container w-[30%] flex place-items-center">
-                <div class="locations w-full mx-auto flex gap-x-10 place-items-center px-10 justify-center items-center">
-                    <img class="object-fill" src="./assets/icons/location.png" alt="location icon">
-                    <div class="locations-text">
-                        <h1 class="text-3xl font-extrabold">30+</h1>
-                        <span class="text-slate-700 text-xl mt-3">Locations</span>
-                    </div>
-                </div>
-            </div>
-            <div class="vertical-line border-l-gray-300/15 border-l-2 h-[140px]"></div>
-            <div class="servers-container w-[30%] flex place-items-center">
-                <div class="servers w-full mx-auto flex gap-x-10 place-items-center px-10 justify-center items-center">
-                    <img class="object-fill" src="./assets/icons/Server.png" alt="server icon">
-                    <div class="users-text">
-                        <h1 class="text-3xl font-extrabold">50+</h1>
-                        <span class="text-slate-700 text-xl mt-3">Servers</span>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <!-- features provided -->
-         <div class="features-provided w-[85%] mx-auto mt-30 grid grid-cols-12 justify-items-center">
-            <div class="illustration-image ml-20 col-span-6">
-                <img src="./assets/images/Illustration 2.png" alt="illustration image">
+      </div>
+      <!-- features provided -->
+      <div
+        class="features-provided w-[85%] mx-auto mt-30 grid grid-cols-12 justify-items-center"
+      >
+        <div class="illustration-image ml-20 col-span-6">
+          <img
+            src="./assets/images/Illustration 2.png"
+            alt="illustration image"
+          />
+        </div>
+        <div
+          class="features-provided mt-10 ml-40 col-span-6 text-gray-500 flex flex-col gap-y-4"
+        >
+          <h1 class="text-black text-4xl leading-12 font-bold">
+            We Provide Many Features You Can Use
+          </h1>
+          <p class="mt-1.5">
+            You can explore the features that we provide with fun and have their
+            own functions each feature.
+          </p>
+          <ul class="mt-1 text-sm flex flex-col gap-y-4">
+            <li class="flex gap-2">
+              <img
+                src="./assets/icons/Group 1120.png"
+                alt="white tick in with a green background"
+              />
+              <span>Powerfull online protection.</span>
+            </li>
+            <li class="flex gap-2">
+              <img
+                src="./assets/icons/Group 1120.png"
+                alt="white tick in with a green background"
+              />
+              <span>Internet without borders.</span>
+            </li>
+            <li class="flex gap-2">
+              <img
+                src="./assets/icons/Group 1120.png"
+                alt="white tick in with a green background"
+              />
+              <span>Supercharged VPN.</span>
+            </li>
+            <li class="flex gap-2">
+              <img
+                src="./assets/icons/Group 1120.png"
+                alt="white tick in with a green background"
+              />
+              <span>No specific time limits.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- choose-plan-section -->
+      <div class="choose-plan-section mt-30 pt-20 bg-gray-300/10">
+        <div class="section-body w-[80%] mx-auto">
+          <div
+            class="upper-section w-[50%] mx-auto text-center flex flex-col gap-2"
+          >
+            <h1 class="text-black text-4xl font-bold">Choose Your Plan</h1>
+            <p class="mt-4 text-gray-500">
+              Let's choose the package that is best for you and explore it
+              happily and cheerfully.
+            </p>
+          </div>
+          <div class="plans mt-14 grid grid-cols-12 gap-10">
+            <div
+              class="free-plan bg-white border-gray-300 border-2 rounded-xl col-span-4 pt-16 pb-10"
+            >
+              <div class="upper-content w-[39%] mx-auto text-center">
+                <img src="./assets/icons/Free.png" alt="free box" />
+                <h1 class="mt-7 text-black text-lg font-bold">Free Plan</h1>
+              </div>
+              <ul
+                class="mt-10 text-sm text-gray-500 w-[70%] mx-auto ml-16 flex flex-col gap-y-4"
+              >
+                <li class="flex gap-4">
+                  <img
+                    src="./assets/icons/11111.png"
+                    alt="white tick in with a green background"
+                  />
+                  <span>Unlimited Bandwidth</span>
+                </li>
+                <li class="flex gap-4">
+                  <img
+                    src="./assets/icons/11111.png"
+                    alt="white tick in with a green background"
+                  />
+                  <span>Encrypted Connection</span>
+                </li>
+                <li class="flex gap-4">
+                  <img
+                    src="./assets/icons/11111.png"
+                    alt="white tick in with a green background"
+                  />
+                  <span>No Traffic Logs</span>
+                </li>
+                <li class="flex gap-4">
+                  <img
+                    src="./assets/icons/11111.png"
+                    alt="white tick in with a green background"
+                  />
+                  <span>Works on All Devices</span>
+                </li>
+              </ul>
+              <div
+                class="down-content w-[55%] mx-auto mt-34 text-center flex flex-col gap-y-3"
+              >
+                <h1 class="text-black text-2xl font-bold">Free</h1>
+                <a
+                  href="#"
+                  class="border-red-500 border-2 px-10 py-1.5 text-base text-red-500 font-bold rounded-3xl hover:bg-red-500 hover:text-white"
+                  >Select</a
+                >
+              </div>
             </div>
-            <div class="features-provided mt-10 ml-40 col-span-6 text-gray-400 flex flex-col gap-y-4">
-                <h1 class="text-black text-4xl leading-12 font-bold">We Provide Many Features You Can Use</h1>
-                <p class="mt-1.5">You can explore the features that we provide with fun and have their own functions each feature.</p>
-                <ul class=" mt-1 flex flex-col gap-y-4">
-                    <li class="flex gap-2">
-                        <img src="./assets/icons/Group 1120.png" alt="white tick in with a green background">
-                        <span>Powerfull online protection.</span>
-                    </li>
-                    <li class="flex gap-2">
-                        <img src="./assets/icons/Group 1120.png" alt="white tick in with a green background">
-                        <span>Internet without borders.</span>
-                    </li>
-                    <li class="flex gap-2">
-                        <img src="./assets/icons/Group 1120.png" alt="white tick in with a green background">
-                        <span>Supercharged VPN.</span>
-                    </li>
-                    <li class="flex gap-2">
-                        <img src="./assets/icons/Group 1120.png" alt="white tick in with a green background">
-                        <span>No specific time limits.</span>
-                    </li>
-                </ul>
+            <div
+              class="standard-plan bg-white border-gray-300 border-2 rounded-xl col-span-4 pt-16 pb-10"
+            >
+              <div class="upper-content w-[39%] mx-auto text-center">
+                <img src="./assets/icons/Free.png" alt="free box" />
+                <h1 class="mt-7 text-black text-lg font-bold">Free Plan</h1>
+              </div>
+              <ul
+                class="mt-10 text-sm text-gray-500 w-[70%] mx-auto ml-16 flex flex-col gap-y-4"
+              >
+                <li class="flex gap-4">
+                  <img
+                    src="./assets/icons/11111.png"
+                    alt="white tick in with a green background"
+                  />
+                  <span>Unlimited Bandwidth</span>
+                </li>
+                <li class="flex gap-4">
+                  <img
+                    src="./assets/icons/11111.png"
+                    alt="white tick in with a green background"
+                  />
+                  <span>Encrypted Connection</span>
+                </li>
+                <li class="flex gap-4">
+                  <img
+                    src="./assets/icons/11111.png"
+                    alt="white tick in with a green background"
+                  />
+                  <span>Yes Traffic Logs</span>
+                </li>
+                <li class="flex gap-4">
+                  <img
+                    src="./assets/icons/11111.png"
+                    alt="white tick in with a green background"
+                  />
+                  <span>Works on All Devices</span>
+                </li>
+                <li class="flex gap-4">
+                  <img
+                    src="./assets/icons/11111.png"
+                    alt="white tick in with a green background"
+                  />
+                  <span>Connect Anyware</span>
+                </li>
+              </ul>
+              <div
+                class="down-content w-[55%] mx-auto mt-24 text-center flex flex-col gap-y-3"
+              >
+                <h1 class="text-black text-2xl font-bold">
+                  $9 <span class="text-gray-400 font-normal">/ mo</span>
+                </h1>
+                <a
+                  href="#"
+                  class="border-red-500 border-2 px-10 py-1.5 text-base text-red-500 font-bold rounded-3xl hover:bg-red-500 hover:text-white"
+                  >Select</a
+                >
+              </div>
             </div>
-         </div>
+            <div
+              class="premium-plan border-gray-300 border-2 rounded-xl col-span-4 pt-16 pb-10"
+            >
+              <div class="upper-content w-[39%] mx-auto text-center">
+                <img src="./assets/icons/Free.png" alt="free box" />
+                <h1 class="mt-7 text-black text-lg font-bold">Premium Plan</h1>
+              </div>
+              <ul
+                class="mt-10 text-sm text-gray-500 w-[70%] mx-auto ml-16 flex flex-col gap-y-4"
+              >
+                <li class="flex gap-4">
+                  <img
+                    src="./assets/icons/11111.png"
+                    alt="white tick in with a green background"
+                  />
+                  <span>Unlimited Bandwidth</span>
+                </li>
+                <li class="flex gap-4">
+                  <img
+                    src="./assets/icons/11111.png"
+                    alt="white tick in with a green background"
+                  />
+                  <span>Encrypted Connection</span>
+                </li>
+                <li class="flex gap-4">
+                  <img
+                    src="./assets/icons/11111.png"
+                    alt="white tick in with a green background"
+                  />
+                  <span>Yes Traffic Logs</span>
+                </li>
+                <li class="flex gap-4">
+                  <img
+                    src="./assets/icons/11111.png"
+                    alt="white tick in with a green background"
+                  />
+                  <span>Works on All Devices</span>
+                </li>
+                <li class="flex gap-4">
+                  <img
+                    src="./assets/icons/11111.png"
+                    alt="white tick in with a green background"
+                  />
+                  <span>Connect Anyware</span>
+                </li>
+                <li class="flex gap-4">
+                  <img
+                    src="./assets/icons/11111.png"
+                    alt="white tick in with a green background"
+                  />
+                  <span>Get New Features</span>
+                </li>
+              </ul>
+              <div
+                class="down-content w-[55%] mx-auto mt-16 text-center flex flex-col gap-y-3"
+              >
+                <h1 class="text-black text-2xl font-bold">
+                  $12 <span class="text-gray-400 font-normal">/ mo</span>
+                </h1>
+                <a
+                  href="#"
+                  class="border-red-500 border-2 px-10 py-1.5 text-base text-red-500 font-bold rounded-3xl hover:bg-red-500 hover:text-white"
+                  >Select</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-</body>
-
+  </body>
 </html>
